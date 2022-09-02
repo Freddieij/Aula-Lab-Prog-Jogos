@@ -1,0 +1,9 @@
+from PPlay.window import *
+import pygame
+
+janela = Window(500, 500)
+janela.set_title('jogo')
+janela.set_background_color('green')
+
+while True:
+    janela.update()
